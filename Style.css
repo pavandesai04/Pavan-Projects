@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif; /* Choose a simple font */
+  margin: 0; /* Remove default body margins */
+  background-color: #fff; /* Set the background color to white */
+  color: #333; /* Set a default text color */
+}
+
+header {
+  background-color: #f0f0f0; /* Light gray background for the header */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points from the navigation list */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; /* Display navigation items in a line */
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333; /* Darker color for headings */
+}
+
+footer {
+  background-color: #333; /* Dark background for the footer */
+  color: #fff; /* White text color for the footer */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
