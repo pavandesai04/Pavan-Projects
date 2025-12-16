@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>SRE Platform</title>
-  <link rel="stylesheet" href="style.css"> </head>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
   <header>
     <h1>Welcome to our SRE Platform</h1>
@@ -12,29 +14,50 @@
         <li><a href="#">About SRE</a></li>
         <li><a href="#">Resources</a></li>
         <li><a href="#">Tools</a></li>
-       	<li><a href="#dashboard">Internal Developer Portal</Portal></a></li>
+        <li><a href="#dashboard">Internal Developer Portal</a></li>
       </ul>
     </nav>
   </header>
-<main>
-  <section id="intro">
-    <h2>What is SRE?</h2>
-    <p>Site Reliability Engineering (SRE) is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems. </p>
-    <section id="about-sre"> 
-    <h2>About SRE Team</h2> 
-    <p>Our SRE team is a group of skilled engineers dedicated to ensuring the reliability, performance, and scalability of our systems. We are passionate about automation, monitoring, and incident response. </p> 
-  </section>
-  <section id="Resources">
-    <h2>Resources</h2>
-    <p>Explore our collection of articles, tutorials, and tools to learn more about SRE.</p>
-  </section>
-  <section id="dashboard">
-    <h2>Internal Developer Portal</h2>
-    <p> Service Observability Onboarding, Alert Enablement, Dashboard Creation, Maintenance Window, Incident War Room Setup, PIR Automation, Access Requests, SLO Management, Deployment Readiness, Cost Insights</p>
-</section>
-  </section> </main>
+
+  <main>
+    <section id="intro">
+      <h2>What is SRE?</h2>
+      <p>Site Reliability Engineering (SRE) is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems.</p>
+    </section>
+
+    <section id="about-sre">
+      <h2>About SRE Team</h2>
+      <p>Our SRE team is a group of skilled engineers dedicated to ensuring the reliability, performance, and scalability of our systems. We are passionate about automation, monitoring, and incident response.</p>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <p>Explore our collection of articles, tutorials, and tools to learn more about SRE.</p>
+    </section>
+
+    <section id="dashboard">
+      <h2>Internal Developer Portal</h2>
+
+      <!-- Use a semantic list so each item appears on its own line -->
+      <ul class="portal-items">
+        <li>Service Observability Onboarding</li>
+        <li>Alert Enablement</li>
+        <li>Dashboard Creation</li>
+        <li>Maintenance Window</li>
+        <li>Incident War Room Setup</li>
+        <li>PIR Automation</li>
+        <li>Access Requests</li>
+        <li>SLO Management</li>
+        <li>Deployment Readiness</li>
+        <li>Cost &amp; Budgeting</li>
+      </ul>
+    </section>
+  </main>
+
   <footer>
     <p>&copy; SRE Platform</p>
   </footer>
-  <script src="script.js"></script> </body>
+
+  <script src="script.js"></script>
+</body>
 </html>
